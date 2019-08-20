@@ -1,0 +1,18 @@
+/* Base Styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #0d2238;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  border: 2px solid red;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+}
