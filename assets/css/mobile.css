@@ -8,11 +8,49 @@ img {
   max-width: 100%;
 }
 
+/* Grid System */
+.full-width {
+  width: 100%;
+}
+
 /* Header */
 header {
+  background-color:#ffc296;
   border: 2px solid red;
+  width: 90%;
 }
 
 header h1 {
   font-family: "Playfair Display", serif;
+  font-size: 55px;
+  color:#0d2238;
+  text-transform: uppercase;
+}
+
+header nav ul li {
+  list-style: none;
+  padding: 10px 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color:#0d2238;
+}
+
+header nav ul li a:hover {
+  color: #30688b;
+}
+
+/* Book Sign */
+#book-sign {
+  background-image: url("https://myliveactiondisneyproject.files.wordpress.com/2015/06/enchantednathanielbooks.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+/* Newsletter */
+#newsletter {
+  border: 2px solid red;
 }
