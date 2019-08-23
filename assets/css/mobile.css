@@ -155,7 +155,6 @@ header nav ul li a:hover {
 
 /* Directory */
 #directory {
-  border: 2px solid red;
   width: 100%;
 }
 
@@ -165,4 +164,49 @@ header nav ul li a:hover {
   color: #0d2238;
   text-align: center;
   text-transform: uppercase;
+}
+
+#directory h4 {
+  font-size: 30px;
+  color:#0d2238;
+}
+
+#directory nav ul li {
+  list-style: none;
+}
+
+#directory nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #0d2238;
+}
+
+#directory: nav ul li a {
+  color: #30688b;
+}
+
+/* Footer */
+footer {
+  background-color:#ffc296;
+  width: 100%;
+}
+
+footer p {
+  font-size: 18px;
+  color: #0d2238;
+  padding-left: 15px;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #0d2238;
+}
+
+footer nav ul li a:hover {
+  color:#30688b;
 }
