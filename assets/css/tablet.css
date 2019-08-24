@@ -15,12 +15,26 @@ img {
   width: 100%;
 }
 
+.half-width {
+  width: 50%;
+  float: left;
+}
+
+.third-width {
+  width: 30%;
+  float: left;
+}
+
 /* Header */
 header {
   background-color:#ffc296;
   width: 100%;
   display: flex;
   flex-direction: row;
+}
+
+header .half-width {
+  width: 100%;
 }
 
 header h1 {
@@ -90,11 +104,13 @@ header nav ul li a:hover {
 /* Best Seller */
 #best-seller {
   width: 100%;
-  border: 2px solid red;
+  height: 520px;
+  padding: 20px 0;
 }
 
 #best-seller img {
-  height: 700px;
+  height: 500px;
+  padding-left: 25px;
 }
 
 #best-seller h2 {
@@ -105,7 +121,122 @@ header nav ul li a:hover {
   text-align: center;
 }
 
-#best-seller {
+#best-seller p {
   font-size: 20px;
   line-height: 30px;
+}
+
+/* Enchanted */
+#enchanted {
+  width: 100%;
+  height: 650px;
+  padding: 25px 0;
+}
+
+#enchanted h2 {
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  color: #0d2238;
+  text-align: center;
+}
+
+#enchanted p {
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 15px;
+}
+
+#enchanted img {
+  height: 600px;
+  padding: 20px 40px;
+}
+
+/* News */
+#news {
+  width: 100%;
+  height: 650px;
+}
+
+#news .third-width {
+  padding-right: 20px;
+}
+
+#news h2 {
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  color: #0d2238;
+}
+
+#news h3 {
+  font-size: 45px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+}
+
+#news p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* Directory */
+#directory {
+  width: 100%;
+  height: 500px;
+}
+
+#directory h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 55px;
+  color: #0d2238;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#directory h4 {
+  font-size: 35px;
+  color:#0d2238;
+}
+
+#directory nav ul li {
+  list-style: none;
+  padding: 15px 0;
+}
+
+#directory nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #0d2238;
+}
+
+#directory: nav ul li a {
+  color: #30688b;
+}
+
+/* Footer */
+footer {
+  background-color:#ffc296;
+  width: 100%;
+}
+
+footer p {
+  font-size: 18px;
+  color: #0d2238;
+}
+
+footer nav {
+  padding: 10px 0;
+}
+
+footer nav ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #0d2238;
+}
+
+footer nav ul li a:hover {
+  color:#30688b;
 }
