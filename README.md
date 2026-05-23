@@ -1,13 +1,16 @@
-# 30 Days 30 Sites Author Website
+# 30 Days 30 Sites Day 6: Author Website
+Nathaniel web page
 
-30 Days, 30 Sites day 6 prompt author website. Made with HTML & CSS.
+## Tech Stack
+- HTML
+- CSS
 
 ## Instructions
-Clone the repo or download the zip file. Open index.html file in your browser to see complete website.
-
-## Contributions
-I will not be accepting any pull requests.
+1. Clone the repo or download the zip file. 
+2. Open index.html file in your browser.
 
 ## Acknowledgements 
 * 30 Days, 30 Sites
 * Disney
+* Google Fonts
+* Font Awesome
